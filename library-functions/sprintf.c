@@ -16,7 +16,7 @@ int main()
     // puts(sp1.player_number);
 
     /**
-     * sprintf: 정수형을 string 포맷으로 출력해주는 함수
+     * sprintf: 정수형을 string으로 변환하고 싶을 때 첫 번째 인자에 사용하는 함수
      *  e.g. 7 -> "7"
      */
     sprintf(temp, "%d", sp1.player_number);
